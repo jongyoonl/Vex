@@ -1,0 +1,8 @@
+{
+  "short_name": "Vex",
+  "name": "Vex: A Hand-drawn Flag Identifier",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#405090",
+  "background_color": "aliceblue"
+}

@@ -1,0 +1,53 @@
+.ColorButton {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ColorButton:focus {
+    outline: 0;
+}
+
+#current {
+    margin-right: 5%;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#skyblue {
+    background-color: skyblue;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#brown {
+    background-color: brown;
+}
+
+#white {
+    background-color: #FFFFFE;
+}
+
+#black {
+    background-color: black;
+}

@@ -1,0 +1,24 @@
+.Button {
+  background-color: #304080;
+  height: 30%;
+  color: aliceblue;
+  border: none;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 200%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.Button:focus {
+  outline: 0;
+}
+
+#clear {
+  margin-right: 10%;
+}
+
+#submit {
+}

@@ -1,0 +1,16 @@
+.Suggestion {
+    padding: 0px;
+    border: 1px solid midnightblue;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Guesses {
+    text-align: center;
+    color: #405090;
+    font-size: large;
+    font-weight: bold;
+    height: 30%;
+}

@@ -1,0 +1,35 @@
+body {
+  margin-top: -5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: sans-serif;
+  background-color: aliceblue;
+}
+
+#root {
+  width: 50%;
+  float:left;
+}
+
+#suggestions-div {
+  height: 80%;
+  width: 50%;
+  float: right;
+}
+
+#colors-div {
+  height: 5%;
+  width: 50%;
+  float: left;
+  margin-bottom: 0.5%;
+}
+
+#canvas-div {
+  width: 50%;
+  float: left;
+}
+#buttons-div {
+  margin-top: 10%;
+  width: 50%;
+}
+
