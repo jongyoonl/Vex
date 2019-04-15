@@ -4,7 +4,7 @@ import Canvas from './Canvas.js';
 import axios from 'axios';
 
 axios.defaults.baseURL = "http://localhost:8080"
-//\axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = true;
 axios.defaults.xsrfCookieName = "csrftoken";
 axios.defaults.xsrfHeaderName = "X-CSRFToken";
 

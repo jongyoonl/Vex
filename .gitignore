@@ -1,6 +1,9 @@
 # Mac OS X file system files
 *.DS_Store
 
+# Settings for django app during development
+backend/backend/settings.py
+
 # Large files
 backend/static/data.pickle
 backend/static/model.h5

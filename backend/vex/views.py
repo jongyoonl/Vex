@@ -14,7 +14,7 @@ filepath = "static/images"
 
 class VexView(View):
 
-    @method_decorator(csrf_protect)
+    @method_decorator(csrf_exempt)
     def dispatch(self, request, *args, **kwargs):
         return super(VexView, self).dispatch(request, *args, **kwargs)
 
