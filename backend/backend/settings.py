@@ -20,11 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3tve$-nhn^)u9hl(q3mn74&8fnf-c3hh&vm!pul&d@oww*s@m#'
+SECRET_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost']
 
@@ -43,11 +43,11 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.csrf.CsrfViewMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -80,12 +80,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'vexdb',
-        'USER': 'vexsu',
-        'PASSWORD': 'AmGKq8cVuZ!6GP!DFOS&cz=xYGxaBhqwPX6*H1zJPmEfqLvILt@s5?hd \
-        D&NtDqIJ%@j|xV2wmHaxsIfjYeipUR#$&2dFXR+gleWzpqHD!6niMC7ldzSLylANBm|w$ \
-        GlEvB+K=ZYK^f^VeE9%sChHyWa-?=d-^&0ZyppPOu0=Pry?aO|pnjW?Flf-7r&&8$U9&^ \
-        XvQ6Blm4=dML|eF+3AsiOizqGAiu8yLyWYQzx6Q#YtR@u_9Z|njo&zzUlAhAbk',
+        'NAME': 'database',
+        'USER': 'username',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
